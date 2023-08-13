@@ -21,11 +21,13 @@ const Cards = () => {
   const handleOrderClick = () => {
     setShowSuccessMessage(true);
 
-    // Reset showSuccessMessage after a delay
+   
     setTimeout(() => {
       setShowSuccessMessage(false);
     }, 3000);
   };
+
+
 
   return (
     
